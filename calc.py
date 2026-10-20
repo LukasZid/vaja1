@@ -1,6 +1,10 @@
 import sys
 
-def sestej(a, b):
+# Konzolni kalkulator - avtor Lukas
+
+# 1, 2, 3
+
+def sestej(a, b): # To je sestevanje - komentar 1
     return a + b
 
 
