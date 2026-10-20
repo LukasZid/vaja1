@@ -14,14 +14,14 @@ def main():
         print("Primer: python calc.py 1 + 2")
         sys.exit
 
-    a = float(sys.argv[1]) # stevilo1
+    st1 = float(sys.argv[1]) # stevilo1
     operator = sys.argv[2]
-    b = float(sys.argv[3]) # stevilo2
+    st2 = float(sys.argv[3]) # stevilo2
 
     if operator == "+":
-        print(sestej(a, b))
+        print(sestej(st1, st2))
     elif operator == "-":
-        print(odstej(a, b))
+        print(odstej(st1, st2))
     else:
         print(f"Neznan operator: {operator}")
         sys.exit(1)
