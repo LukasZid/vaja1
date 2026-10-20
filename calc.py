@@ -11,7 +11,10 @@ def mnozi(a, b):
     return a * b
 
 def deli(a, b):
-    return a/b
+    if b == 0:
+        print("Napaka: deljenje z nic ni mogoce")
+        sys.exit(1)
+    return a / b
 
 def main():
     if len(sys.argv) != 4:
