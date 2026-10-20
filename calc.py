@@ -7,6 +7,8 @@ def sestej(a, b):
 def odstej(a, b):
     return a - b
 
+def mnozi(a, b):
+    return a * b
 
 def main():
     if len(sys.argv) != 4:
@@ -22,6 +24,8 @@ def main():
         print(sestej(st1, st2))
     elif operator == "-":
         print(odstej(st1, st2))
+    elif operator == "*":
+        print(mnozi(st1, st2))
     else:
         print(f"Neznan operator: {operator}")
         sys.exit(1)
