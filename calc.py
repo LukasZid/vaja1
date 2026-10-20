@@ -4,7 +4,7 @@ def sestej(a, b):
     return a + b
 
 
-def odstej(a, b):
+def odstej(a, b): # to je odstevanje - komentar 2
     return a - b
 
 def mnozi(a, b):
