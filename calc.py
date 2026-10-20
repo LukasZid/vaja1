@@ -1,7 +1,7 @@
 import sys
 
 # Konzolni kalkulator - avtor Lukas
-
+# Nedokoncano delo brez commit-a
 # 1, 2, 3
 
 def sestej(a, b): # To je sestevanje - komentar 1
