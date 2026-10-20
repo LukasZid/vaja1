@@ -21,7 +21,11 @@ def main():
     st2 = float(sys.argv[3]) # stevilo2
 
     if operator == "+":
-        print(f"Rezultat: {sestej(a, b)}")
+<<<<<<< HEAD
+        print(sestej(a, b))
+=======
+        print(f"Vsota: {sestej(st1, st2)}")
+>>>>>>> feature/mnozenje
     elif operator == "-":
         print(odstej(st1, st2))
     elif operator == "*":
