@@ -28,7 +28,7 @@ Operatorji: `+`, `-`, `*`, `/`
 ```bash
 python calc.py 5 + 3      # Rezultat: 8.0
 python calc.py 10 - 4     # 6.0
-python calc.py 3 * 5      # 15.0
+python calc.py 3 \* 5      # 15.0
 python calc.py 6 / 3      # 2.0
 ```
 
