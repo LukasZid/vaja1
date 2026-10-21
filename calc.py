@@ -1,5 +1,5 @@
 import sys
-
+# Revert test
 # Konzolni kalkulator - avtor Lukas
 # Nedokoncano delo brez commit-a
 # 1, 2, 3
